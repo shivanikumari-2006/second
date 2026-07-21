@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: rgb(110, 5, 110);">
+    <H1 style="background-color: rgb(161, 98, 3); color: rgba(0, 0, 0, 0.918); text-align: center;"> 7th session </H1>
+    <H2>Student Management System:</H2>
+
+    <form action="../4th_session/index.html" method="get" target="_blank">
+        <table border="3" cellspacing="0" cellpadding="5">
+            <tr>
+                <th><label for="Student">Student id:</label></th>
+                <td><input type="text" name="student" placeholder="Enter student id" required></td>
+            </tr>
+            <tr>
+                <th><label for="name">Name:</label></th>
+                <td><input type="text" name="name" placeholder="Enter your name" required></td>
+            </tr>
+
+            <tr>
+                <th><label for="email">Email:</label></th>
+                <td><input type="email" name="email" placeholder="Enter your email Address" required></td>
+            </tr>
+            <tr>
+                <th><label for="password">Password</label></th>
+                <td><input type="password" name="password" placeholder="Enter your password" required></td>
+            </tr>
+            <tr>
+                <th><label for="address">Address:</label></th>
+                <td><textarea name="address" id="address" rows="3" cols="30" placeholder="Enter your present Address"
+                        required></textarea></td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>
+                    <input type="radio" id="male" name="male" value="Male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="female" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="Other" id="gender" value="Other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="city">City</label></th>
+                <td>
+                    <select name="city" id="city" required>
+                        <option value="">---select City----</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="patna">Patna</option>
+                        <option value="banaras">Banaras</option>
+                        <option value="chandighad">Chandighad</option>
+                        <option value="bhopal">Bhopal</option>
+                        <option value="lucknow">Lucknow</option>
+                        <option value="kolkata">kolkata</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="qualification"> Qualification:</label></th>
+                <td><input type="text" name="qualification" id="qualification" placeholder="Enter your qualification">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <hr>
+    <h3>this is a student Management system . and it has student id, student Name
+        address, email, password, etc.
+    </h3>
+</body>
+
+</html>
