@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(175, 14, 68);
+}
+h1{
+    background-color:rgb(189, 1, 1);
+    color: black;
+    text-align: center;
+}
+#first{
+    background-color:rgb(126, 5, 126);
+    color: aqua;
+    text-align: center;
+}
+#para1{
+    font-weight: 30px;
+    color: rgb(38, 0, 255);
+    font-size: 20px;
+}
+#para2{
+    font-weight: 20px;
+    color: rgb(5, 117, 117);
+    font-size: 20px;
+}
+#para3{
+    font-size: 20px;
+    color: rgb(32, 3, 13);
+}
+#div1{
+    background-color: rgb(2, 54, 9);
+    width: 200px;
+    height: 300px;
+    border-width:2px;
+    border-radius: 10px;
+    border-color: rgb(36, 226, 226);
+    border-style: dotted;
+
+    
+}
+#second{
+    background-color: rgb(1, 51, 85);
+    color: brown;
+    text-align: center;
+}
+#div2{
+    background-color: yellow;
+    height: 200px;
+    width: 300px;
+    border-style: dotted;
+    border-bottom-left-radius: 20px 10px 10px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+#third{
+    background-color: red;
+    text-align: center;
+
+}
