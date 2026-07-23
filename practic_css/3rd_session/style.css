@@ -1,9 +1,14 @@
 body{
-    background-color: rgb(175, 14, 68);
+    background-image: linear-gradient(to right, red , pink, yellow,skyblue);
 }
 h1{
     background-color:rgb(189, 1, 1);
     color: black;
+    text-align: center;
+}
+#gradin{
+    background-color: rgb(8, 172, 16);
+    color: aliceblue;
     text-align: center;
 }
 #first{
