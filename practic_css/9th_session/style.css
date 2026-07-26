@@ -1,0 +1,38 @@
+.enrolled{
+    width: 90%;
+    margin: 20px auto;
+    background: #1cd444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.836);
+}
+.enrolled h2{
+    margin-bottom: 20px;
+    color: #420303;
+
+}
+.course box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.course{
+    width: 30%;
+    background-color: #035ead;
+    border-radius:10px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+.course:hover{
+    transform: scale(1.05);
+}
+.course img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.course h3{
+    font-size: 18px;
+    color: #333;
+}
