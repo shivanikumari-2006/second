@@ -1,0 +1,82 @@
+body{
+    background-color: lawngreen;
+}
+h1{
+    background-color: rgb(226, 131, 43);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 20px 2px 2px rgb(131, 6, 12);
+}
+#para{
+    text-align: center;
+    color: blue;
+    text-shadow: 20px 2px 3px red;
+    background-color: blanchedalmond;
+
+}
+#text{
+    text-shadow: 30px 2px 2px blue;
+    text-decoration: double;
+}
+#box{
+    text-align: center;
+    color: rgb(58, 58, 5);
+    background-color: aqua;
+
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid palevioletred;
+    background-color: blue;
+    box-shadow: 2px 2px 8px
+     8px rgb(255, 81, 0);
+}
+#c{
+    text-align: center;
+    background-color: rgb(233, 129, 10);
+
+}
+button{
+    padding: 12px 20px 12px 20px;
+    border: none;
+    background-color: brown;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#op{
+    background-color: rgb(255, 0, 119);
+    color: rgb(122, 41, 4);
+    text-align: center;
+}
+img{
+    height: 200px;
+    opacity: 0.7;
+}
+#f{
+    text-align: center;
+    background-color: rgb(75, 46, 9);
+}
+#im{
+    height: 300px;
+    float: right;
+}
+#ov{
+    text-align: center;
+    background-color: rgb(7, 98, 110);
+}
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(150, 83, 3);
+    overflow: auto;
+    border-radius: 30px;
+    border: 20px solid ;
+}
+
+
+
+
+
+
+
