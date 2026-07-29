@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(to left, purple,skyblue, blue, gray);
+}
+h1{
+    text-align: center;
+    color: bisque;
+    background-image:linear-gradient(to right, green, red, rgb(201, 19, 50), skyblue) ;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 0, 64);
+    animation-name: boxstyle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: all 2s ease-in-out;
+    animation-delay: 2s;
+    border-radius: 40px;
+    border: 10px solid peru;
+    text-align: center;
+}
+div:hover{
+    background-color: purple;
+}
+@keyframes boxstyle{
+    0% {
+        top: 0;
+        left: 0;
+        background-color:red;
+    }
+    25% {
+        top : 0;
+        left : 90%;
+        transform: rotate(360deg);
+        background-color: purple; 
+    }
+    50% {
+        top: 550px;
+        transform: rotate( -360deg);
+        background-color: rgb(2, 151, 151);
+        left: 90%;
+        bottom: 0;
+        background-color: blue;
+
+    }
+    75% {
+        left: 0;
+        bottom: 0;
+        top: 90%;
+        transform: rotate(360deg);
+        background-color: rgb(179, 199, 1);
+
+    }
+    100% {
+        top: 0;
+        left: 0%;
+        transform: rotate(360deg);
+        background-color: rgb(146, 146, 9);
+    }
+
+    
+}

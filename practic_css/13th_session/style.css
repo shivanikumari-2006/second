@@ -1,0 +1,131 @@
+
+body{
+    background-image:linear-gradient(to right , rgb(192, 14, 44), rgb(9, 98, 133) ,rgb(197, 197, 5)) ;
+}
+h1{
+    text-align: center;
+    background-image: linear-gradient(to left, red, green,  purple);
+
+}
+#hover{
+    text-align: center;
+    background-image: linear-gradient(to right, skyblue, blue, green, brown);
+    #hover:hover{
+        background-image: linear-gradient(to right, purple, gray, red,);
+        color: black;
+    }
+
+}
+#para1{
+    font-size: 23px;
+    color: rgb(110, 2, 11);
+    padding: 20px;
+}
+#para:hover{
+    color: rgb(9, 126, 126);
+    font-weight: 600;
+}
+#div1{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: 10px solid green;
+
+}
+#div1:hover{
+    background-color: brown;
+    border: 10px solid rgb(0, 140, 255);
+}
+#tra{
+    background-color: yellowgreen;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+#para2{
+    font-weight: 800;
+    transition-property: color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+}
+#para2:hover{
+    color: rgb(146, 90, 7);
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    text-align: center;
+    border: 10px solid;
+    transition-property: color;
+    transition-duration: 6s;
+    transition-timing-function: ease-out;
+
+}
+#div2:hover{
+    color: rgb(158, 158, 16);
+}
+#trn{
+    background-color: red;
+    text-align: center;
+}
+#sc{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(5, 100, 2);
+    border: 10px solid purple;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 2s ease-in-out;
+}
+#sc:hover{
+        transform: scale(0.9);
+         
+
+}
+#ro{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(28, 2, 100);
+    border: 10px solid rgb(128, 0, 64);
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 2s ease-in-out;
+
+}
+#ro:hover{
+        transform: rotate(360deg);
+        
+}
+#sk{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(188, 201, 10);
+    border: 10px solid rgb(68, 128, 0);
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 2s ease-in-out;
+
+}
+#sk:hover{
+        transform: skew(20deg , 0);
+
+
+}
+#trans{
+height: 100px;
+    width: 100px;
+    background-color: rgb(155, 8, 64);
+    border: 10px solid rgb(68, 128, 0);
+    border-radius: 20px;
+    text-align: center;
+    
+
+}
+#trans:hover{
+        transform: translate(50px, 20px);
+}
