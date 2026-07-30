@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(to left, green, yellow, skyblue, purple) ;
+}
+h1{
+    text-align: center;
+    background-image:linear-gradient(to right, rgb(18, 112, 81), rgb(138, 4, 4), rgb(185, 185, 8) );
+     color: rgb(95, 65, 1);
+}
+h2{
+    text-align: center;
+    color: red;
+    background-image: linear-gradient(to left, rgb(14, 168, 14), yellow, rgb(107, 4, 21),skyblue);
+}
+p{
+    font-weight: 20px;
+    font-size: 20px;
+    color: rgb(29, 11, 97);
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(13, 119, 66);
+    text-align: center;
+    border: 5px solid ;
+    border-radius: 20px;
+}
+@media(max-width : 600px){
+    h2{
+    text-align: center;
+    color: red;
+    background-image: linear-gradient(to left, rgb(14, 168, 14), yellow, rgb(107, 4, 21),skyblue);
+}
+p{
+    font-weight: 20px;
+    font-size: 20px;
+    color: rgb(136, 4, 96);
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(116, 77, 5);
+    text-align: center;
+    border: 5px solid ;
+    border-radius: 20px;
+}
+
+}
+@media(mim-width : 600px){
+  h1{
+    text-align: center;
+    background-image:linear-gradient(to right, rgb(42, 134, 14), rgb(89, 4, 138), rgb(131, 26, 79) );
+     color: rgb(95, 65, 1);
+}
+
+    h2{
+    text-align: center;
+    color: rgb(224, 228, 3);
+    background-image: linear-gradient(to left, rgb(14, 168, 14), yellow, rgb(107, 4, 21),skyblue);
+}
+p{
+    font-weight: 20px;
+    font-size: 20px;
+    color: rgb(33, 5, 78);
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(7, 80, 43);
+    text-align: center;
+    border: 5px solid ;
+    border-radius: 20px;
+}
+
+}
