@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #e7e3e3;
+    padding: 20px;
+
+}
+.manu-container{
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: white;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0 ,0 ,0.336);
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+h1::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(59, 59, 59);
+    margin-top: 20px;
+}
+h1::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(59, 59, 59);
+    margin-bottom: 20px;
+}
+.manu-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+
+}
+.manu-item{
+    width: 45%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+.manu-item img{
+    width: 38%;
+    height: 153px;
+    border-radius: 100%;
+    border: 2px dashed red;
+    object-fit: cover;
+}
+.manu-item h3{
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+.manu-item span{
+    color: rgb(131, 86, 3);
+    font-weight: 600;
+}
+.manu-item p{
+    font-size: 14px;
+    color: rgb(77, 75, 75);
+}
+.desert-beverage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+     text-align: left;
+     padding: 0 20px;
+
+}
+.desert-beverage div{
+    width: 45%;
+}
+.desert-beverage div h4{
+    font-size: 20px;
+    color: rgb(53, 52, 52);
+}
+.desert-beverage div ul{
+    list-style: none;
+    padding: 0;
+}
+.desert-beverage div ul li{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    border-bottom: 1px solid rgb(223, 221, 217);
+}
+@media only screen and (max-width:640px){
+    h1{
+        font-size: 3rem;
+    }
+    .manu-item{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .manu-item img{
+        width: 50px;
+        height: 200px;
+    }
+    .desert-beverage{
+    flex-direction: column;
+}
+.desert-beverage div{
+    width: 100%;
+}
+    
+}
+    
