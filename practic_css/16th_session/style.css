@@ -1,0 +1,16 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+    gap: 200px;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+}
