@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "pt sams", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -18,5 +18,6 @@ body{
     border: 1px solid #717377;
     padding: 20px;
     border-radius: 16px;
+    
     
 }
